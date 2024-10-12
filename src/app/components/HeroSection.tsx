@@ -83,7 +83,7 @@ const HeroSection = () => {
                 
                 {/* Download CV Button */}
                 <a
-                    href="/path-to-your-cv.pdf" // Replace with your CV file path
+                   href="/Mohit_Kumar_CV.pdf" // Replace with your CV file path
                     download="Mohit_Kumar_CV.pdf"
                     className="bg-white text-black py-2 px-4 lg:px-10 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                 >
