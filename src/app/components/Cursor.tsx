@@ -1,11 +1,12 @@
-"use client"
+"use client";
 import { useEffect, useState } from 'react';
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const moveCursor = (e:any) => {
+    // Change 'any' to 'MouseEvent'
+    const moveCursor = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
