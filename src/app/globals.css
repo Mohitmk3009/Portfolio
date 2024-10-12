@@ -38,12 +38,12 @@ html, body {
 }
 
 /* Custom Cursor Styles */
+
 .custom-cursor {
   position: fixed;
   top: 0;
   left: 0;
   pointer-events: none;
-  z-index: 9999;
   transform: translate(-50%, -50%);
   mix-blend-mode: difference; /* Ensures the dot stays visible on different backgrounds */
 }
@@ -53,20 +53,17 @@ html, body {
   height: 20px;
   background-color: white;
   border-radius: 50%;
-  position: absolute;
-  z-index: 10000; /* Keeps it on top of everything */
+  z-index: 100;
 }
 
 .cursor-blur {
   width: 500px;
   height: 500px;
-  background-color: rgba(255, 255, 255, 0.301);
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-  position: absolute;
-  filter: blur(250px); /* Adds the blur effect */
-  z-index: 999; /* Keeps it behind all other elements */
+  filter: blur(300px);
+  z-index: 99;
 }
-
 
 .bounding {
   width: fit-content;
@@ -77,7 +74,7 @@ html, body {
   transform: translateY(100%);
 }
 
-#main {
+/* #main {
   width: 100%;
   background-color: black;
 }
@@ -98,7 +95,7 @@ html, body {
 }
 
 #heading h1 {
-  /* margin-left: 100px; */
+  margin-left: 100px;
   opacity: .9;
   line-height: 1;
   font-size: 12vw;
@@ -138,7 +135,7 @@ html, body {
   margin-top: .5vw;
   font-size: 1vw;
   text-align: right;
-}
+} */
 
 #herofooter {
   padding: 0 2vw;

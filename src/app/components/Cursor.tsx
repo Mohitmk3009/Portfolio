@@ -5,9 +5,12 @@ const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    // Change 'any' to 'MouseEvent'
     const moveCursor = (e: MouseEvent) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      // Ensure the cursor stays within the viewport
+      const x = Math.min(e.clientX, window.innerWidth - 20); // Add padding to avoid edge overflow
+      const y = Math.min(e.clientY, window.innerHeight - 20);
+
+      setPosition({ x, y });
     };
 
     window.addEventListener('mousemove', moveCursor);
@@ -21,14 +24,22 @@ const Cursor = () => {
     <>
       {/* Small white dot on top of everything */}
       <div
-        className="custom-cursor cursor-dot"
-        style={{ top: `${position.y}px`, left: `${position.x}px` }}
+        className=" hidden lg:flex custom-cursor cursor-dot"
+        style={{
+          top: `${position.y}px`,
+          left: `${position.x}px`,
+          position: 'fixed',  // Use fixed positioning to prevent overflow
+        }}
       />
       
       {/* Blurred circle behind all elements */}
       <div
-        className="custom-cursor cursor-blur"
-        style={{ top: `${position.y}px`, left: `${position.x}px` }}
+        className=" hidden lg:flex custom-cursor cursor-blur"
+        style={{
+          top: `${position.y}px`,
+          left: `${position.x}px`,
+          position: 'fixed',  // Use fixed positioning to prevent overflow
+        }}
       />
     </>
   );

@@ -5,9 +5,9 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, } from "@nextui-o
 const Header = () => {
     return (
 
-        <Navbar shouldHideOnScroll className='px-10 py-5 bg-black flex justify-end  '>
+        <Navbar shouldHideOnScroll className='md:px-5 md:py-5  py-2 bg-black flex justify-between  '>
             <NavbarBrand>
-                <p className="font-black opacity-90 h1 text-3xl ml-[-1400px] rounded-full ">Mohit Kumar</p>
+                <p className="font-black opacity-90 h1 md:text-2xl text-lg rounded-full uppercase">Mohit Kumar</p>
             </NavbarBrand>
             <NavbarContent className="hidden sm:flex gap-14 text-xl  items-center" >
                 <NavbarItem>
