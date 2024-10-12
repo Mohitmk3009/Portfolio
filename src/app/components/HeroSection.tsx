@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from 'react';
-import LocomotiveScroll from 'locomotive-scroll';
+// import LocomotiveScroll from 'locomotive-scroll';
 import { gsap } from 'gsap';
 // Import LocomotiveScroll styles (uncomment when using in your project)
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
