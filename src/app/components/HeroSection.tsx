@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 // import LocomotiveScroll from 'locomotive-scroll';
 import { gsap } from 'gsap';
+import Image from 'next/image';
 // Import LocomotiveScroll styles (uncomment when using in your project)
 // import 'locomotive-scroll/src/locomotive-scroll.scss';
 
@@ -54,11 +55,15 @@ const HeroSection = () => {
                 <div className="w-[600px] h-[600px] z-20 bg-slate-500 rounded-full opacity-100"></div> 
                 
             </div> */}
-            <img
+            <Image
                 src="https://github.com/Mohitmk3009.png" // Update with your image path
                 alt="Mohit Kumar"
+                width={600}
+                height={600}
+                layout="intrinsic" 
                 className="absolute boundingelem z-30 w-[600px] h-[600px] mt-[-120px] rounded-full items-center justify-center object-cover border-4 opacity-30 border-white"
             />
+            
             <div id="heading" className='z-0 relative'>
                 <div className="bounding">
                     <h1 className="boundingelem">Mohit</h1>
