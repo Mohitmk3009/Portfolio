@@ -82,10 +82,10 @@ const HeroSection = () => {
             
             <div id="chhotiheadings" >
                 <div className="bounding">
-                    <h5 className="boundingelem">"Crafting seamless digital experiences through innovative front-end development and thoughtful UI/UX design</h5>
+                    <h5 className="boundingelem">&quot;Crafting seamless digital experiences through innovative front-end development and thoughtful UI/UX design</h5>
                 </div>
                 <div className="bounding">
-                    <h5 className="boundingelem">—Hi, I’m Mohit Kumar."</h5>
+                    <h5 className="boundingelem">—Hi, I’m Mohit Kumar.&quot;</h5>
                 </div>
             </div>
             {/* <div id="herofooter">
