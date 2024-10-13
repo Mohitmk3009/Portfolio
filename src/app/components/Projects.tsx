@@ -63,7 +63,7 @@ const Projects = () => {
     
 
     return(
-        <div className="bg-black text-white pt-[50px] mt-[-20px] pb-10  w-full ">
+        <div className="bg-black text-white pt-[30px] mt-[-20px] pb-10 mb-28 w-full ">
     <div className="flex flex-col border-t border-gray-600 border-b">
     <a className="relative elem flex items-center cursor-pointer justify-between w-full lg:px-20 px-5 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
                 <Image src={CBPLApp} width={500} height={500} alt="" className="absolute rounded-2xl opacity-0 lg:w-[400px] lg:h-[400px] w-[200px] h-[200px] pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2" />

@@ -98,7 +98,7 @@ const HeroSection = () => {
                 </div>
                 <div className="bounding w-fit overflow-hidden">
                     <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
-                        —Hi, I’m Mohit Kumar.
+                        - Hi, I’m Mohit Kumar.
                     </h5>
                 </div>
             </div>

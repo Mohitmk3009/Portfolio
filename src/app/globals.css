@@ -275,7 +275,7 @@ html, body {
   position: absolute;
   transform: translate(-50%, -50%);
 } */
-#about {
+/* #about {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -312,7 +312,7 @@ html, body {
   color: #fff;
   font-size: 12px;
   text-decoration: none;
-}
+} */
 
 #subscribe {
   color: #fff;

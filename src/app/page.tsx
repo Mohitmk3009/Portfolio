@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Cursor from "./components/Cursor";
 import Projects from "./components/Projects";
 import ScrollText from "./components/ScrollText";
+import AboutMe from "./components/AboutMe";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
     <HeroSection />
     <ScrollText title='Projects'/>
     <Projects/>
+    <ScrollText title='About me'/>
+<AboutMe/>
     </>
   );
 }
