@@ -22,7 +22,7 @@ const Projects = () => {
                 });
             };
 
-            const handleMouseMove = (dets) => {
+            const handleMouseMove = (dets:any) => {
                 const diff = dets.clientY - elem.getBoundingClientRect().top;
                 diffrot = dets.clientX - rotate;
                 rotate = dets.clientX;
