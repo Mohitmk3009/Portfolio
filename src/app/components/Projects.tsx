@@ -55,11 +55,11 @@ const Projects = () => {
                 <h1 className="text-uppercase text-[20px] lg:text-[120px] opacity-70">Chairbord-APP</h1>
                 <h5>2024</h5>
             </a>
-            <a className="relative elem flex items-center cursor-pointer justify-between w-full lg:px-20 px-5 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
+            <a className="relative elem flex items-center cursor-pointer justify-between w-full lg:px-20 px-5 py-10 border-t border-gray-600" href="https://admin.chairbord.in/">
                 <Image src={CBPLAdmin} width={500} height={500} alt="" className="absolute rounded-2xl opacity-0 pointer-events-none  lg:w-[550px] lg:h-[400px] w-[200px] h-[150px] z-50 transform -translate-x-1/2 -translate-y-1/2" />
                 <h1 className="text-uppercase text-[20px] lg:text-[120px] opacity-70">Chairbord-Admin</h1>
                 <h5>2024</h5>
-            </a><a className="relative elem flex items-center cursor-pointer justify-between w-full lg:px-20 px-5 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
+            </a><a className="relative elem flex items-center cursor-pointer justify-between w-full lg:px-20 px-5 py-10 border-t border-gray-600" href="https://github.com/Mohitmk3009/ReadEase">
                 <Image src={Readease} width={500} height={500} alt="" className="absolute rounded-2xl opacity-0 pointer-events-none lg:w-[550px] lg:h-[400px] w-[200px] h-[150px] z-50 transform -translate-x-1/2 -translate-y-1/2" />
                 <h1 className="text-uppercase text-[20px] lg:text-[120px] opacity-70">ReadEase:Online book store</h1>
                 <h5>2023</h5>
