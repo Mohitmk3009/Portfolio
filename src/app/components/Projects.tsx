@@ -1,0 +1,73 @@
+"use client"
+import Image from 'next/image';
+import React, { useEffect } from 'react';
+import CBPLApp from '../assets/CBPL_app.jpg';
+import CBPLAdmin from '../assets/CBPL_admin.png';
+import Readease from '../assets/ReadEase.png';
+import { gsap, Power3 } from 'gsap'; // Ensure you have gsap installed
+
+const Projects = () => {
+    useEffect(() => {
+        const elems = document.querySelectorAll('.elem');
+
+        elems.forEach((elem) => {
+            let rotate = 0;
+            let diffrot = 0;
+
+            const handleMouseLeave = () => {
+                gsap.to(elem.querySelector('img'), {
+                    opacity: 0,
+                    ease: Power3.easeOut,
+                    duration: 0.5,
+                });
+            };
+
+            const handleMouseMove = (dets) => {
+                const diff = dets.clientY - elem.getBoundingClientRect().top;
+                diffrot = dets.clientX - rotate;
+                rotate = dets.clientX;
+
+                gsap.to(elem.querySelector('img'), {
+                    opacity: 1,
+                    ease: Power3.easeOut,
+                    top: diff,
+                    left: dets.clientX,
+                    rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+                });
+            };
+
+            elem.addEventListener('mouseleave', handleMouseLeave);
+            elem.addEventListener('mousemove', handleMouseMove);
+
+            // Cleanup event listeners on unmount
+            return () => {
+                elem.removeEventListener('mouseleave', handleMouseLeave);
+                elem.removeEventListener('mousemove', handleMouseMove);
+            };
+        });
+    }, []);
+
+    return(
+        <div className="bg-black text-white pt-[50px] pb-[20px]  w-full h-full">
+    <div className="flex flex-col border-t border-gray-600 border-b">
+    <a className="relative elem flex items-center cursor-pointer justify-between w-full px-20 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
+                <Image src={CBPLApp} width={400} height={500} alt="" className="absolute rounded-2xl opacity-0 w-[400px] h-[400px] pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2" />
+                <h1 className="text-uppercase text-[120px] opacity-70">Chairbord-APP</h1>
+                <h5>2022</h5>
+            </a>
+            <a className="relative elem flex items-center cursor-pointer justify-between w-full px-20 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
+                <Image src={CBPLAdmin} width={500} height={500} alt="" className="absolute rounded-2xl opacity-0 pointer-events-none h-[140%] z-50 transform -translate-x-1/2 -translate-y-1/2" />
+                <h1 className="text-uppercase text-[120px] opacity-70">Chairbord-Admin</h1>
+                <h5>2022</h5>
+            </a><a className="relative elem flex items-center cursor-pointer justify-between w-full px-20 py-10 border-t border-gray-600" href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share">
+                <Image src={Readease} width={500} height={500} alt="" className="absolute rounded-2xl opacity-0 pointer-events-none h-[140%] z-50 transform -translate-x-1/2 -translate-y-1/2" />
+                <h1 className="text-uppercase text-[120px] opacity-70">ReadEase:Online book store</h1>
+                <h5>2022</h5>
+            </a>
+    </div>
+</div>
+
+    );
+};
+
+export default Projects;

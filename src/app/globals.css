@@ -73,6 +73,14 @@ html, body {
 .bounding .boundingelem {
   transform: translateY(100%);
 }
+.contact-resume{
+  width: fit-content;
+  overflow: hidden;
+}
+.contact-resume a{
+  transform: translateY(100%);
+
+}
 
 /* #main {
   width: 100%;
@@ -137,6 +145,67 @@ html, body {
   text-align: right;
 } */
 
+/* @font-face {
+  font-family: 'gilroy';
+  src: url('/path-to-your-font/gilroy.woff2') format('woff2'),
+       url('/path-to-your-font/gilroy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-gilroy {
+  font-family: 'gilroy', sans-serif;
+} */
+
+
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+
+#scroller-in {
+  animation-name: scroll;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4 {
+  font-family: 'gilroy', sans-serif;
+  margin-right: 20px;
+  transition: all linear 0.3s;
+  color: #000;
+  -webkit-text-stroke: 2px #ffffff; /* Default stroke for larger screens */
+}
+
+#scroller h4:hover {
+  color: #ffffff;
+  -webkit-text-stroke: 2px #ffffff;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 640px) {
+  #scroller h4 {
+    -webkit-text-stroke: 1px #ffffff; /* Smaller stroke for mobile devices */
+    font-size: 60px; /* Optionally reduce font size for mobile */
+  }
+  
+  #scroller h4:hover {
+    -webkit-text-stroke: 1px #ffffff; /* Ensure hover state matches mobile stroke */
+  }
+}
+
+
+
+@keyframes scroll {
+  from {
+      transform: translateX(0);
+  }
+
+  to {
+      transform: translateX(-100%);
+  }
+}
+
 #herofooter {
   padding: 0 2vw;
   width: 100%;
@@ -168,7 +237,7 @@ html, body {
   background-color: #888;
 }
 
-#second {
+/* #second {
   color: #fff;
   padding-right: 10vw;
   padding-top: 200px;
@@ -205,8 +274,7 @@ html, body {
   z-index: 999;
   position: absolute;
   transform: translate(-50%, -50%);
-}
-
+} */
 #about {
   display: flex;
   align-items: center;
