@@ -8,19 +8,7 @@ import { FiMenu, FiX } from 'react-icons/fi'; // Using react-icons for menu and 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const menuItems = [
-        "Profile",
-        "Dashboard",
-        "Activity",
-        "Analytics",
-        "System",
-        "Deployments",
-        "My Settings",
-        "Team Settings",
-        "Help & Feedback",
-        "Log Out",
-    ];
-
+    
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
