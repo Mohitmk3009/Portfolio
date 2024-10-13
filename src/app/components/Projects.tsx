@@ -9,43 +9,57 @@ import { gsap, Power3 } from 'gsap'; // Ensure you have gsap installed
 const Projects = () => {
     useEffect(() => {
         const elems = document.querySelectorAll('.elem');
-
+        const eventListeners: { elem: Element; handleMouseLeave: () => void; handleMouseMove: (e: MouseEvent) => void }[] = [];
+    
         elems.forEach((elem) => {
             let rotate = 0;
             let diffrot = 0;
-
+    
             const handleMouseLeave = () => {
-                gsap.to(elem.querySelector('img'), {
-                    opacity: 0,
-                    ease: Power3.easeOut,
-                    duration: 0.5,
-                });
+                const img = elem.querySelector('Image') as HTMLImageElement; // Typecast to HTMLImageElement
+                if (img) {
+                    gsap.to(img, {
+                        opacity: 0,
+                        ease: Power3.easeOut,
+                        duration: 0.5,
+                    });
+                }
             };
-
-            const handleMouseMove = (dets:any) => {
-                const diff = dets.clientY - elem.getBoundingClientRect().top;
-                diffrot = dets.clientX - rotate;
-                rotate = dets.clientX;
-
-                gsap.to(elem.querySelector('img'), {
-                    opacity: 1,
-                    ease: Power3.easeOut,
-                    top: diff,
-                    left: dets.clientX,
-                    rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
-                });
+    
+            const handleMouseMove = (dets: MouseEvent) => {
+                const img = elem.querySelector('Image') as HTMLImageElement; // Typecast to HTMLImageElement
+                if (img) {
+                    const diff = dets.clientY - elem.getBoundingClientRect().top;
+                    diffrot = dets.clientX - rotate;
+                    rotate = dets.clientX;
+    
+                    gsap.to(img, {
+                        opacity: 1,
+                        ease: Power3.easeOut,
+                        top: diff,
+                        left: dets.clientX,
+                        rotate: gsap.utils.clamp(-20, 20, diffrot * 0.5),
+                    });
+                }
             };
-
+    
+            // Add event listeners
             elem.addEventListener('mouseleave', handleMouseLeave);
             elem.addEventListener('mousemove', handleMouseMove);
-
-            // Cleanup event listeners on unmount
-            return () => {
+    
+            // Store event listeners in the array for cleanup
+            eventListeners.push({ elem, handleMouseLeave, handleMouseMove });
+        });
+    
+        // Cleanup event listeners on component unmount
+        return () => {
+            eventListeners.forEach(({ elem, handleMouseLeave, handleMouseMove }) => {
                 elem.removeEventListener('mouseleave', handleMouseLeave);
                 elem.removeEventListener('mousemove', handleMouseMove);
-            };
-        });
+            });
+        };
     }, []);
+    
 
     return(
         <div className="bg-black text-white pt-[50px] mt-[-20px] pb-10  w-full ">
