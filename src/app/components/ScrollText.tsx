@@ -2,7 +2,7 @@ import React from 'react'
 
 const ScrollText = ({ title }) => {
     return (
-        <div className='bg-black mt-[-100px] py-[30px]'>
+        <div className='bg-black mt-[-140px] py-[10px]'>
             <div id="scroller" className='flex-nowrap overflow-x-auto overflow-y-hidden relative z-50'>
                 <div id="scroller-in" className=' flex flex-nowrap lg:gap-40 gap:30'>
                     {Array(10).fill().map((_, index) => (

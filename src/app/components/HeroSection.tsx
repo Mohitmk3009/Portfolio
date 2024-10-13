@@ -19,7 +19,7 @@ const HeroSection = () => {
         .to(".boundingelem", {
             y: 0,
             ease: "expo.inOut",
-            duration: 2,
+            duration: 1,
             delay: -1,
             stagger: 0.2,
         })
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 className="absolute z-30 md:w-[600px] md:h-[600px] w-[250px] h-[250px] md:mt-[-180px] mt-[-250px] rounded-full object-cover border-4 border-white opacity-20"
             />
         
-            <div id="heading" className="relative z-0 lg:mt-[-10px] px-2 lg:pt-4 mt-[80px]">
+            <div id="heading" className="relative z-0 lg:mt-[-10px] justify-center lg:pt-4 mt-[0px]">
                 <div className="bounding w-fit overflow-hidden">
                     <h1 className="boundingelem text-white opacity-80 leading-none lg:text-[250px] text-[60px]  font-extrabold uppercase">
                         Mohit
@@ -52,11 +52,11 @@ const HeroSection = () => {
                 </div>
                 <div className="blocktext flex flex-col items-end w-fit">
                     <div className="bounding w-fit overflow-hidden">
-                        <h1 id="secondh1" className="boundingelem text-white opacity-80 leading-none lg:text-[250px] text-[60px]  font-extrabold uppercase ml-[105px] lg:ml-[400px]">
+                        <h1 id="secondh1" className="boundingelem text-white opacity-80 leading-none lg:text-[250px] text-[60px]  font-extrabold uppercase ml-[90px] lg:ml-[400px]">
                             Kumar
                         </h1>
                     </div>
-                    <div className="bounding w-fit overflow-hidden mt-20 lg:mt-0">
+                    <div className="bounding w-full  overflow-hidden  mt-20 lg:mt-0">
                         <h5 className="boundingelem text-white uppercase md:text-lg text-sm font-medium lg:text-right text-center">
                             UI/UX Designer and Front-end Developer
                         </h5>
@@ -65,7 +65,7 @@ const HeroSection = () => {
             </div>
         <div className='lg:flex lg:justify-between w-full'>
         {/* Contact and Resume Section */}
-            <div id="contact-resume" className="relative z-10 flex flex-col lg:flex-row lg:ml-[-280px] lg:gap-10 gap-5 justify-center items-center w-full px-5 mt-5 lg:mt-20  ">
+            <div id="contact-resume" className="relative z-10 flex   lg:ml-[-280px] lg:gap-10 gap-5 justify-center items-center w-full px-5 mt-5 lg:mt-20  ">
                 {/* Get in Touch Button */}
                 <a
                     href="mailto:mohitkumar300902@gmail.com" // Replace with your email
@@ -90,7 +90,7 @@ const HeroSection = () => {
                     Download CV
                 </a>
             </div>
-            <div id="chhotiheadings" className="flex flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full px-5 mt-[30px] lg:mt-[60px]">
+            <div id="chhotiheadings" className="flex flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full  mt-[30px] lg:mt-[60px]">
                 <div className="bounding w-fit overflow-hidden">
                     <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                         &quot;Crafting seamless digital experiences through innovative front-end development and thoughtful UI/UX design&quot;
