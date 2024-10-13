@@ -36,24 +36,7 @@ const config: Config = {
       },
 
     },
-    plugins: [
-      function ({ addUtilities }) {
-        addUtilities({
-          '.stroke-1': {
-            '-webkit-text-stroke': '1px',
-          },
-          '.stroke-2': {
-            '-webkit-text-stroke': '2px',
-          },
-          '.stroke-white': {
-            '-webkit-text-stroke-color': '#ffffff',
-          },
-          '.stroke-black': {
-            '-webkit-text-stroke-color': '#000000',
-          },
-        });
-      }
-    ],
+    
   },
   plugins: [],
 };
