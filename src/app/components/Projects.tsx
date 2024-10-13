@@ -9,14 +9,14 @@ import { gsap, Power3 } from 'gsap'; // Ensure you have gsap installed
 const Projects = () => {
     useEffect(() => {
         const elems = document.querySelectorAll('.elem');
-        const eventListeners: { elem: Element; handleMouseLeave: () => void; handleMouseMove: (e: MouseEvent) => void }[] = [];
+        const eventListeners: { elem: Element; handleMouseLeave: EventListener; handleMouseMove: EventListener }[] = [];
     
         elems.forEach((elem) => {
             let rotate = 0;
             let diffrot = 0;
     
-            const handleMouseLeave = () => {
-                const img = elem.querySelector('Image') as HTMLImageElement; // Typecast to HTMLImageElement
+            const handleMouseLeave: EventListener = () => {
+                const img = elem.querySelector('img') as HTMLImageElement; // Typecast to HTMLImageElement
                 if (img) {
                     gsap.to(img, {
                         opacity: 0,
@@ -26,8 +26,9 @@ const Projects = () => {
                 }
             };
     
-            const handleMouseMove = (dets: MouseEvent) => {
-                const img = elem.querySelector('Image') as HTMLImageElement; // Typecast to HTMLImageElement
+            const handleMouseMove: EventListener = (event: Event) => {
+                const dets = event as MouseEvent; // Cast to MouseEvent
+                const img = elem.querySelector('img') as HTMLImageElement; // Typecast to HTMLImageElement
                 if (img) {
                     const diff = dets.clientY - elem.getBoundingClientRect().top;
                     diffrot = dets.clientX - rotate;
