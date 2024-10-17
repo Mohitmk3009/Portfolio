@@ -160,7 +160,7 @@ const Header = () => {
                 <div
                     className={`sm:hidden fixed top-0 left-0 right-0 z-[40] bg-black text-white transition-all duration-300 ${isMenuOpen ? 'translate-y-10' : '-translate-y-full'}`} // Lower z-index than the logo but higher than hero
                 >
-                    <ul className="flex flex-col items-center gap-6 py-10">
+                    <ul className="flex flex-col items-center gap-6 py-6">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="#projects">Projects</Link></li>
                         <li><Link href="#about">About</Link></li>
