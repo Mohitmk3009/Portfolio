@@ -104,12 +104,12 @@ const HeroSection = () => {
             </div>
             <div id="chhotiheadings" className="flex flex-col lg:hidden items-end lg:justify-end justify-center lg:text-right text-justify w-full  mt-[30px] lg:mt-[60px]">
                 <div className="bounding w-fit overflow-hidden">
-                    <h5 className="boundingelem text-white uppercase lg:text-lg text-xs ">
+                    <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                         &quot;Crafting seamless digital experiences through innovative front-end development and thoughtful UI/UX design&quot;
                     </h5>
                 </div>
                 <div className="bounding w-fit overflow-hidden">
-                    <h5 className="boundingelem text-white uppercase lg:text-lg text-xs ">
+                    <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                         - Hi, I’m Mohit Kumar.
                     </h5>
                 </div>
