@@ -9,13 +9,19 @@ import AboutMe from "./components/AboutMe";
 export default function Home() {
   return (
     <>
-    <Cursor/>
-    <Header/>
-    <HeroSection />
-    <ScrollText title='Projects'/>
-    <Projects/>
-    <ScrollText title='About me'/>
-<AboutMe/>
+      <Cursor />
+      <Header />
+        <HeroSection />
+      <section id="projects" >
+        <ScrollText title='Projects' />
+        <Projects />
+      </section>
+      <section id="about" >
+        <ScrollText title='About me' />
+        <AboutMe />
+      </section>
+
+
     </>
   );
 }

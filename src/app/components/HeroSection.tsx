@@ -33,7 +33,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div id="hero" className="relative flex flex-col items-center justify-center w-full h-full bg-black lg:px-20 px-5 mt-[-5px] overflow-hidden">
+        <div id="hero" className="relative flex flex-col items-center justify-center w-full h-full bg-black lg:px-20 px-5 mt-20 mb-10 overflow-hidden">
             
             <Image
                 src="https://github.com/Mohitmk3009.png"
@@ -44,7 +44,7 @@ const HeroSection = () => {
                 className="absolute z-30 md:w-[600px] md:h-[600px] w-[250px] h-[250px] md:mt-[-180px] mt-[-250px] rounded-full object-cover border-4 border-white opacity-20"
             />
         
-            <div id="heading" className="relative z-0 lg:mt-[-10px] justify-center lg:pt-4 mt-[0px]">
+            <div id="heading" className="relative z-10 lg:mt-[-10px] justify-center lg:pt-4 mt-[0px]">
                 <div className="bounding w-fit overflow-hidden">
                     <h1 className="boundingelem text-white opacity-80 leading-none lg:text-[250px] text-[60px]  font-extrabold uppercase">
                         Mohit
@@ -69,9 +69,9 @@ const HeroSection = () => {
                 {/* Get in Touch Button */}
                 <a
                     href="mailto:mohitkumar300902@gmail.com" // Replace with your email
-                    className="bg-white text-black py-2 lg:px-10 px-4 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                    className="bg-white text-black py-2 lg:px-14 px-8 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                 >
-                    Get in Touch
+                    Let's Talk
                 </a>
                 {/* Or use phone contact */}
                 {/* <a
@@ -90,7 +90,19 @@ const HeroSection = () => {
                     Download CV
                 </a>
             </div>
-            <div id="chhotiheadings" className="flex flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full  mt-[30px] lg:mt-[60px]">
+            <div id="chhotiheadings" className="lg:flex hidden flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full   mt-[30px] lg:mt-[60px]">
+                <div className="bounding w-fit overflow-hidden">
+                    <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
+                        &quot;Crafting seamless digital experiences through <br/> innovative front-end development and thoughtful UI/UX design&quot;
+                    </h5>
+                </div>
+                <div className="bounding w-fit overflow-hidden">
+                    <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
+                        - Hi, I’m Mohit Kumar.
+                    </h5>
+                </div>
+            </div>
+            <div id="chhotiheadings" className="flex flex-col lg:hidden items-end lg:justify-end justify-center lg:text-right text-justify w-full  mt-[30px] lg:mt-[60px]">
                 <div className="bounding w-fit overflow-hidden">
                     <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                         &quot;Crafting seamless digital experiences through innovative front-end development and thoughtful UI/UX design&quot;
