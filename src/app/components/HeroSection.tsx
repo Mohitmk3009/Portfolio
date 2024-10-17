@@ -71,7 +71,7 @@ const HeroSection = () => {
                     href="mailto:mohitkumar300902@gmail.com" // Replace with your email
                     className="bg-white text-black py-2 lg:px-14 px-8 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                 >
-                    Let's Talk
+                    Let&apos;s Talk
                 </a>
                 {/* Or use phone contact */}
                 {/* <a
