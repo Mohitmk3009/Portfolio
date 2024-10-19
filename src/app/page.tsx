@@ -5,6 +5,7 @@ import Cursor from "./components/Cursor";
 import Projects from "./components/Projects";
 import ScrollText from "./components/ScrollText";
 import AboutMe from "./components/AboutMe";
+import Social from "./components/Social";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
         <ScrollText title='About me' />
         <AboutMe />
       </section>
-
+      <section id="socials" >
+        <ScrollText title='Socials' />
+        <Social />
+      </section>
 
     </>
   );

@@ -33,7 +33,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div id="hero" className="relative flex flex-col items-center justify-center w-full h-full bg-black lg:px-20 px-5 mt-20 mb-10 overflow-hidden">
+        <div id="hero" className="relative flex flex-col items-center justify-center w-full h-full bg-black lg:px-20 px-5 mt-20 lg:mb-10 mb-0 overflow-hidden">
             
             <Image
                 src="https://github.com/Mohitmk3009.png"
