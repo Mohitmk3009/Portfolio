@@ -498,3 +498,13 @@ html.has-scroll-dragging {
   .page14-inner:hover .center14{
       height: 100%;
   } */
+
+  .skill-overlay {
+    opacity: 0; /* Initial state */
+    transition: opacity 0.3s ease; /* Transition effect */
+  }
+  
+  .skill:hover .skill-overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  

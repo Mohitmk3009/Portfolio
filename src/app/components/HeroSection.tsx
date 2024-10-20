@@ -2,7 +2,8 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import Image from 'next/image';
-
+import Link from 'next/link';
+import { motion } from "framer-motion";
 const HeroSection = () => {
     useEffect(() => {
         firstPageAnim();
@@ -67,12 +68,14 @@ const HeroSection = () => {
         {/* Contact and Resume Section */}
             <div id="contact-resume" className="relative z-10 flex   lg:ml-[-280px] lg:gap-10 gap-5 justify-center items-center w-full px-5 mt-5 lg:mt-20  ">
                 {/* Get in Touch Button */}
-                <a
-                    href="mailto:mohitkumar300902@gmail.com" // Replace with your email
-                    className="bg-white text-black py-2 lg:px-14 px-8 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                
+                <Link
+                    href="#contactme" // Replace with your email
+                    className="bg-white text-black py-2 lg:px-12 px-6 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                 >
-                    Let&apos;s Talk
-                </a>
+                    Contact Me
+                </Link>
+                
                 {/* Or use phone contact */}
                 {/* <a
                     href="tel:+1234567890" // Replace with your phone number
