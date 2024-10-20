@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import ScrollText from "./components/ScrollText";
 import AboutMe from "./components/AboutMe";
 import Social from "./components/Social";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <ScrollText title='Socials' />
         <Social />
       </section>
-
+<Analytics/>
     </>
   );
 }
