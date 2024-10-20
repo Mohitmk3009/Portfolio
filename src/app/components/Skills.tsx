@@ -146,11 +146,11 @@ const Skills = () => {
 
   return (
     <section className="bg-black text-white py-20 mt-[-80px] mb-16 lg:mb-5">
-      <div className="container lg:mx-auto mx-5">
+      <div className="container mx-auto max-w-fit">
         {Object.entries(skillsData).map(([category, skills]) => (
           <div key={category} className="mb-10">
             <h3 className="lg:text-2xl text-xl font-semibold text-left mb-5 mt-2 uppercase">{category}</h3>
-            <div className="grid grid-cols-3 md:grid-cols-6 lg:gap-10 gap-6">
+            <div className="grid grid-cols-3 md:grid-cols-6 justify-center lg:gap-20 gap-10 ">
               {skills.map((skill) => (
                 <div
                   key={skill.name}
@@ -158,7 +158,7 @@ const Skills = () => {
                   data-aos="fade-up"
                   data-aos-duration="500"
                 >
-                  <div className="bg-white lg:p-8 p-5 rounded-xl shadow-lg w-fit transform transition  duration-300 justify-center flex flex-col items-center overflow-hidden hover:scale-105 relative">
+                  <div className="bg-white lg:p-8 p-4 rounded-xl shadow-lg w-fit transform transition  duration-300 justify-center flex flex-col items-center overflow-hidden hover:scale-105 relative">
                     <Image
                       src={skill.logo}
                       alt={skill.name}
