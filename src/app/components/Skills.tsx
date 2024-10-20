@@ -108,12 +108,12 @@ const skillsData = {
   ],
   "Tools and Others": [
     {
-      name: "Git",
+      name: "Github",
       logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
     },
     {
-      name: "Github",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-original.svg",
+      name: "Git",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     },
     {
       name: "Vs code",
