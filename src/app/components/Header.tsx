@@ -79,7 +79,7 @@ const Header = () => {
 
                 {/* Mobile Menu (Slide Down) */}
                 <div
-                    className={`sm:hidden fixed top-0 left-0 right-0 z-[40] bg-black text-white transition-transform duration-300 ${isMenuOpen ? 'translate-y-16' : '-translate-y-full'}`}
+                    className={`sm:hidden fixed top-0 left-0 right-0 z-[40] bg-black text-white transition-transform duration-300 ${isMenuOpen ? 'translate-y-12' : '-translate-y-full'}`}
                 >
                     <ul className="flex flex-col items-center gap-4 py-5">
                         <li><Link href="/">Home</Link></li>
