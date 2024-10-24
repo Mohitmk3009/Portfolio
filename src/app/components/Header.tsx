@@ -90,6 +90,7 @@ const Header = () => {
                         <li><Link href="#socials">Socials</Link></li>
                     </ul>
                 </div>
+               
             </Navbar>
         </header>
     );

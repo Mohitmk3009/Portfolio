@@ -37,7 +37,7 @@ const HeroSection = () => {
     return (
         <div
             id="hero"
-            className="relative flex flex-col items-center justify-center w-full h-full bg-black lg:px-20 px-5 lg:mt-20 mt-20 lg:mb-10 overflow-hidden"
+            className="relative flex flex-col items-center justify-center w-full lg:h-full h-[600px]  mb-[-130px] bg-black lg:px-20 px-5 lg:mt-20 mt-20  overflow-hidden"
         >
             <Image
                 src="https://github.com/Mohitmk3009.png"
@@ -47,7 +47,6 @@ const HeroSection = () => {
                 layout="intrinsic"
                 className="absolute z-30 md:w-[600px] md:h-[600px] w-[250px] h-[250px] md:mt-[-180px] mt-[-250px] rounded-full object-cover border-4 border-white opacity-20"
             />
-
             <div
                 id="heading"
                 className="relative z-10 lg:mt-[-10px] justify-center lg:pt-4 mt-[-40px]"
@@ -66,10 +65,10 @@ const HeroSection = () => {
                             Kumar
                         </h1>
                     </div>
-                    <div className="bounding w-full overflow-hidden mt-0 lg:mt-0 lg:ml-[416px] ml-[95px] text-center opacity-80">
+                    <div className="bounding w-full overflow-hidden mt-0 lg:mt-0 lg:ml-[415px] ml-[93px] text-center opacity-80">
                         {/* Fixed-width container to prevent layout shift */}
                         <h5 className="boundingelem text-white  lg:text-2xl text-sm font-extrabold lg:text-center  flex">
-                            <span className="mr-2">I AM</span> {/* Static text "I am" */}
+                            {/* <span className="mr-2">I AM</span> Static text "I am" */}
                             <span
                                 className="inline-block uppercase font-extrabold"
                                 style={{
@@ -82,9 +81,7 @@ const HeroSection = () => {
                                     sequence={[
                                         "UI/UX DESIGNER", // First role
                                         2000,
-                                        "FRONTEND DEVELOPER", // Second role
-                                        2000,
-                                        "APP DEVELOPER", // Third role
+                                        "FRONT-END DEVELOPER", // Second role
                                         2000,
                                     ]}
                                     wrapper="span"
@@ -97,7 +94,6 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-
             <div className="lg:flex lg:justify-between w-full">
                 <div
                     id="chhotiheadings"
@@ -105,8 +101,9 @@ const HeroSection = () => {
                 >
                     <div className="bounding w-fit overflow-hidden">
                         <h5 className="boundingelem text-white uppercase lg:text-lg text-[11px] mt-[0.5vw]">
-                            &quot;Crafting seamless digital experiences through innovative
-                            front-end development and thoughtful UI/UX design&quot;
+                            &quot;Crafting seamless digital experiences through
+                            innovative front-end development and thoughtful UI/UX
+                            design&quot;
                         </h5>
                     </div>
                     <div className="bounding w-fit overflow-hidden">
@@ -121,20 +118,19 @@ const HeroSection = () => {
                 >
                     <Link
                         href="#contactme"
-                        className="bg-white text-black py-2 lg:px-12 px-6 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                        className="bg-white text-black py-2 lg:px-8 px-5 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
                         Contact Me
                     </Link>
-
                     <a
                         href="/Mohit_Kumar_CV.pdf"
-                        download="Mohit_Kumar_CV.pdf"
-                        className="bg-white text-black py-2 px-4 lg:px-10 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-white text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
-                        Download CV
+                        View CV
                     </a>
                 </div>
-
                 <div
                     id="chhotiheadings"
                     className="lg:flex hidden flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full mt-[30px] lg:mt-[60px]"
@@ -150,8 +146,6 @@ const HeroSection = () => {
                         </h5>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );

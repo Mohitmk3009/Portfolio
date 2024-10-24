@@ -61,7 +61,7 @@ const ContactMe = () => {
       initial={{ opacity: 0, y: 100 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ ease: "easeInOut", duration: 0.5 }}
-      className="w-auto lg:mx-[500px] mx-5 rounded-lg shadow-lg mt-[-20px] lg:mb-32 mb-44"
+      className="w-auto lg:mx-[500px] mx-5 rounded-lg shadow-lg  "
     >
       <h2 className="lg:text-4xl text-2xl font-bold text-center mb-6">Contact Me</h2>
       <form onSubmit={sendEmail} className="space-y-4">
