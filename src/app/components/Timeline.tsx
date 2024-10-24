@@ -3,7 +3,7 @@ import React from 'react'
 const Timeline = () => {
     return (
         <div>
-            <section className="work-section">
+            {/* <section className="work-section">
 
                 <div className="project project0">
                     <div className="project-img">
@@ -107,7 +107,7 @@ const Timeline = () => {
 
 
                 <div className="vertical-line"></div>
-            </section>
+            </section> */}
         </div>
     )
 }

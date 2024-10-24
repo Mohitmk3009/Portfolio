@@ -9,10 +9,8 @@ import Social from "./components/Social";
 import { Analytics } from "@vercel/analytics/react";
 import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
-import Timeline from "./components/Timeline";
-import TiltCard from "./components/TiltCard";
 import Certificate from "./components/Certificate";
-// import Certificate from "./components/Certificate";
+
 
 export default function Home() {
   return (

@@ -99,52 +99,7 @@ export default function Certificate() {
       <div className={styles.yetAnotherWrapper}>
         <div className={styles.tiltCardsWrapper}>{tiltCards}</div>
 
-        {/* <label>
-          Test view
-          <input
-            type="checkbox"
-            checked={showTestView}
-            onChange={() => setShouldEnableTestView((x) => !x)}
-            style={{ marginLeft: '6px' }}
-          />
-        </label>
-        <label
-          className={styles.showBlob}
-          style={{ visibility: showTestView ? 'hidden' : 'visible' }}
-        >
-          Show blob
-          <input
-            type="checkbox"
-            checked={showBlob}
-            onChange={() => setShowBlob((x) => !x)}
-            style={{ marginLeft: '6px' }}
-          />
-        </label>
-        <div
-          className={styles.controls}
-          style={{ visibility: showTestView ? 'visible' : 'hidden' }}
-        >
-          <SliderContainer title="Angle:">
-            <span>{angle}°</span>
-            <Slider
-              min="0"
-              max="180"
-              value={angle}
-              onChange={(ev) => setAngle(Number.parseInt(ev.target.value, 10))}
-            />
-          </SliderContainer>
-          <SliderContainer title="Direction of axis of rotation:">
-            <span>{directionAngle}°</span>
-            <Slider
-              min="0"
-              max="360"
-              value={directionAngle}
-              onChange={(ev) =>
-                setDirectionAngle(Number.parseInt(ev.target.value, 10))
-              }
-            />
-          </SliderContainer>
-        </div> */}
+        
       </div>
     </div>
   );

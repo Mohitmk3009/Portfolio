@@ -27,7 +27,6 @@ export default function TiltCard({
   title,
   subTitle,
   paragraph,
-  buttonText,
   accentColor = '#ffffff',
   testValues,
   showBlob = true,
