@@ -1,5 +1,6 @@
 import React from 'react'
-
+// import CBPLAdmin from '../assets/CBPL_admin.png';
+// import Image from 'next/image';
 const Timeline = () => {
     return (
         <div>
@@ -9,7 +10,7 @@ const Timeline = () => {
                     <div className="project-img">
                         <div className="project-img-wrapper">
                             <a href="https://www.harigurus.com/" target="_blank">
-                                <img src="/images/harigurus.webp" alt="project image" draggable="false" />
+                                <Image src={CBPLAdmin} width={400} height={100} alt="project image" draggable="false" className='rounded-xl' />
                             </a>
                             <a href="https://www.harigurus.com/" target="_blank">
                                 <span className="visit-site">Harigurus
@@ -36,6 +37,7 @@ const Timeline = () => {
                     <a className="circle-dot" href="https://webdevenglish.com/" target="_blank"></a>
                     <div className="circle-extension"></div>
                 </div>
+                
                 <div className="project project1">
                     <div className="project-details">
                         <h3>EazyGrad</h3>
@@ -51,7 +53,8 @@ const Timeline = () => {
                     <div className="project-img">
                         <div className="project-img-wrapper">
                             <a href="https://eazygrad.com/" target="_blank">
-                                <img src="/images/eazygrad.webp" alt="project image" draggable="false" />
+                            <Image src={CBPLAdmin} width={400} height={100} alt="project image" draggable="false" className='rounded-xl' />
+
                             </a>
                             <a href="https://eazygrad.com/" target="_blank">
                                 <span className="visit-site">EazyGrad
@@ -73,7 +76,8 @@ const Timeline = () => {
                     <div className="project-img">
                         <div className="project-img-wrapper">
                             <a href="https://webdevenglish.com/" target="_blank">
-                                <img src="/images/web-dev-english.webp" alt="project image" draggable="false" />
+                            <Image src={CBPLAdmin} width={400} height={100} alt="project image" draggable="false" className='rounded-xl' />
+
                             </a>
                             <a href="https://webdevenglish.com/" target="_blank">
                                 <span className="visit-site">Web Dev English

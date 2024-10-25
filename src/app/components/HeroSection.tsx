@@ -97,7 +97,7 @@ const HeroSection = () => {
             <div className="lg:flex lg:justify-between w-full">
                 <div
                     id="chhotiheadings"
-                    className="flex flex-col lg:hidden items-end lg:justify-end justify-center lg:text-right text-justify w-full  mt-16 lg:mt-[60px]"
+                    className="flex flex-col lg:hidden items-end lg:justify-end justify-center lg:text-right text-justify  mx-3  mt-16 lg:mt-[60px] opacity-80 font-medium"
                 >
                     <div className="bounding w-fit overflow-hidden">
                         <h5 className="boundingelem text-white uppercase lg:text-lg text-[11px] mt-[0.5vw]">
@@ -133,10 +133,10 @@ const HeroSection = () => {
                 </div>
                 <div
                     id="chhotiheadings"
-                    className="lg:flex hidden flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full mt-[30px] lg:mt-[60px]"
+                    className="lg:flex hidden flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full mt-[30px] lg:mt-[60px] opacity-80 font-medium"
                 >
                     <div className="bounding w-fit overflow-hidden">
-                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
+                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw] ">
                             &quot;Crafting seamless digital experiences through <br /> innovative front-end development and thoughtful UI/UX design&quot;
                         </h5>
                     </div>

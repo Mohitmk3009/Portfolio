@@ -145,7 +145,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="bg-black text-white mb-[-60px]  ">
+    <section className="bg-black text-white mb-[-40px]  ">
       <div className="container mx-auto max-w-fit">
         {Object.entries(skillsData).map(([category, skills]) => (
           <div key={category} className="mb-10">

@@ -1,12 +1,12 @@
 .blob {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
     position: absolute;
-    inset: 6 0 auto;
+    inset: 4 0 auto;
     margin: 0 auto;
     border-radius: 9999px;
     transform: scale(1.8);
-    opacity: 0.2;
+    opacity: 0.3;
   }
   
   .announcementTitle {

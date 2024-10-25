@@ -2,6 +2,8 @@
 const nextConfig = {
     images: {
         domains: ['github.com',
+            'training-uploads.internshala.com',
+            'udemy-certificate.s3.amazonaws.com',
             'cdn.jsdelivr.net',
             'cdn.worldvectorlogo.com',
             'icon-library.com',

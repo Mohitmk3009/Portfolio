@@ -101,49 +101,63 @@ const Projects = () => {
                         </a>
                     </div>
                             </div>
-                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I designed FIGMA prototypes for the CBPL agent panel app, focusing on user-centered design and enhancing the user journey. I developed the front end using TypeScript, React Native, and Tailwind CSS, which resulted in improved user engagement metrics. Additionally, I utilized Photoshop for image editing and design assets, and Flaticon for icons and illustrations. I developed a React Native application used by over 1,000 agents in North India for FASTag processing, facilitating the generation of FASTag for customers and streamlining toll transactions for vehicles.</p>
+                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I designed Figma prototypes for the CBPL agent panel app with a user-centered approach, enhancing the user journey. Developed the front end using TypeScript, React Native, and Tailwind CSS, boosting engagement. Utilized Photoshop and Flaticon for design assets. Created a React Native app for 1,000+ agents in North India, streamlining FASTag generation and toll transactions.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
                             <Image
                             src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             
                             </div>
@@ -191,47 +205,48 @@ const Projects = () => {
                         </a>
                     </div>
                             </div>
-                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I created a comprehensive news website utilizing the NewsAPI.org to provide the latest news from around the globe. The site features a variety of categories including sports, technology, entertainment, and more, ensuring users have access to the most current events in their areas of interest. With a sleek and intuitive interface, the platform offers seamless browsing and quick access to top stories, keeping users informed and engaged with real-time updates from trusted sources.</p>
+                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I created a news website using NewsAPI.org to deliver real-time global news across categories like sports, technology, and entertainment. The site features a sleek, intuitive design for seamless browsing, keeping users engaged and informed with timely updates from reliable sources.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
+                                
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             /><Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             /><Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                          
                             
@@ -282,69 +297,83 @@ const Projects = () => {
                         </a>
                     </div>
                             </div>
-                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I created FIGMA designs for the CBPL admin panel website, focusing on user-friendly interfaces and interaction design principles. I developed the front end using TypeScript, Next.js, and Tailwind CSS, optimizing load time by 2 seconds. Additionally, I utilized Photoshop for image editing and design assets, and Flaticon for icons and illustrations. The admin panel allows administrators to create users and agents, manage inventory and tags, and perform analysis, enhancing overall functionality and usability.</p>
+                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">I designed Figma interfaces for the CBPL admin panel website with a focus on user-friendly interactions. Developed the front end using TypeScript, Next.js, and Tailwind CSS, reducing load time by 2 seconds. Utilized Photoshop for design assets and Flaticon for icons. The panel allows administrators to manage users, agents, inventory, and tags, with added analysis features for enhanced usability and functionality.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             /><Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                              <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             
                             </div>
@@ -395,41 +424,55 @@ const Projects = () => {
                         </a>
                     </div>
                             </div>
-                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify"> I designed intuitive user interfaces with FIGMA, focusing on seamless user experiences for browsing and interacting with book content. I developed a cloud-hosted web-based platform for an online bookstore using PHP and SQL, enabling secure data management and smooth transaction processes. Additionally, I built the backend functionality using PHP and SQL to ensure secure data management and smooth transaction processes. The platform allows users to buy, read, donate, and listen to audiobooks, as well as create blogs, offering a comprehensive and engaging experience.</p>
+                            <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify"> I designed user-friendly interfaces in Figma for an online bookstore, emphasizing seamless book browsing and interaction. Developed a cloud-hosted platform using PHP and SQL to manage data securely and support smooth transactions. The platform enables users to buy, read, donate, and listen to audiobooks, and create blogs, offering a comprehensive and engaging experience.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
+                            <Image
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                            width={10}
+                            height={10}
+                            alt=''
+                            className='lg:w-10  lg:h-10 w-6 h-6'
+                            />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             /><Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             <Image
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
                             width={10}
                             height={10}
                             alt=''
-                            className='lg:w-10  lg:h-10 w-8 h-8'
+                            className='lg:w-10  lg:h-10 w-6 h-6'
                             />
                             
                             
