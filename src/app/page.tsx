@@ -10,7 +10,7 @@ import { Analytics } from "@vercel/analytics/react";
 import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
 import Certificate from "./components/Certificate";
-import Timeline from "./components/Timeline";
+// import Timeline from "./components/Timeline";
 
 
 export default function Home() {
