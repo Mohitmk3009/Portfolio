@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import styles from './TiltCard.module.css';
 import useTiltStyle from './use-tilt-style';
@@ -32,7 +33,7 @@ export default function TiltCard({
   testValues,
   showBlob = true,
 }: TiltCardProps) {
-  const rootRef = React.useRef<HTMLDivElement>(null); // Change to HTMLDivElement
+  const rootRef = React.useRef<HTMLAnchorElement>(null); // Change to HTMLDivElement
   const rootStyle = useTiltStyle(rootRef, accentColor);
 
   if (testValues) {
@@ -45,7 +46,7 @@ export default function TiltCard({
   };
 
   return (
-    <div ref={rootRef} className='relative flex flex-col justify-start items-center lg:w-[400px] w-auto lg:mx-10 p-5 shadow-custom-shadow transition-transform duration-300 ease-out will-change-transform rounded-3xl cursor-pointer text-center overflow-hidden' style={rootStyle}>
+    <a ref={rootRef} href={href} target="_blank" className='relative flex flex-col justify-start items-center lg:w-[400px] w-auto lg:mx-10 p-5 shadow-custom-shadow transition-transform duration-300 ease-out will-change-transform rounded-3xl cursor-pointer text-center overflow-hidden' style={rootStyle}>
       {showBlob && !testValues && (
         <div
           className={styles.blob}
@@ -77,6 +78,6 @@ export default function TiltCard({
       </div>
 
       <div className={styles.glow} aria-hidden={true} />
-    </div>
+    </a>
   );
 }

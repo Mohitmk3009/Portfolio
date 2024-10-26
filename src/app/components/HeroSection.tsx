@@ -120,7 +120,7 @@ const HeroSection = () => {
                         href="#contactme"
                         className="bg-white text-black py-2 lg:px-8 px-5 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
-                        Contact Me
+                        Contact&nbsp;Me
                     </Link>
                     <a
                         href="/Mohit_Kumar_CV.pdf"
@@ -128,7 +128,7 @@ const HeroSection = () => {
                         rel="noopener noreferrer"
                         className="bg-white text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
-                        View CV
+                        View&nbsp;CV
                     </a>
                 </div>
                 <div

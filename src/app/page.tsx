@@ -10,7 +10,7 @@ import { Analytics } from "@vercel/analytics/react";
 import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
 import Certificate from "./components/Certificate";
-// import Timeline from "./components/Timeline";
+import Timeline from "./components/Timeline";
 
 
 export default function Home() {
@@ -19,27 +19,23 @@ export default function Home() {
       <Cursor />
       <Header />
       <HeroSection />
-      {/* <section id="timeline" >
-        <ScrollText title='Timeline' />
-        <Timeline />
-      </section> */}
       <section id="projects" >
         <ScrollText title='Projects' />
         <Projects />
+      </section>
+      <section id="timeline" >
+        <ScrollText title='Timeline' />
+        <Timeline />
       </section>
       <section id="skills" >
         <ScrollText title='Skills' />
         <Skills />
       </section>
-      <section id="certification" >
+      <section id="certifications" >
         <ScrollText title='Certification' />
         <Certificate />
 
       </section>
-      {/* <section id="skills" >
-        <ScrollText title='Certificates' />
-        <Certificate />
-      </section> */}
       <section id="about" >
         <ScrollText title='About me' />
         <AboutMe />

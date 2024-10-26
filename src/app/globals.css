@@ -586,34 +586,11 @@ html.has-scroll-dragging {
     /* background-color: var(--light);
     color: var(--dark); */
     position: relative;
-    margin: 0 auto;
-  }
-  .work-section h2 {
-    text-align: center;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    margin: 0 auto;
-    padding: 0.2em 0.5em;
-    border: 2px solid #1788ae;
-    border: 2px solid #1788ae;
-    border-top: none;
-    border-radius: 0 0 8px 8px;
-    font-size: 2.5em;
-    background-color: var(--light);
-    position: relative;
-    z-index: 5;
-    color: #1788ae;
-    color: #1788ae;
-  }
-  @media (max-width: 650px) {
-    .work-section h2 {
-      font-size: 1.5em;
-      border: none;
-      padding: 0;
-      margin-bottom: 0.8em;
-      margin-top: 0.5em;
-    }
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    
   }
   .work-section .project {
     display: -webkit-box;
@@ -625,11 +602,11 @@ html.has-scroll-dragging {
             align-items: center;
     margin: 0 auto;
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 1600px;
-    margin-bottom: 3em;
+    /* margin-bottom: 3em; */
   }
-  .work-section .project .ejs {
+  /* .work-section .project .ejs {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -642,22 +619,22 @@ html.has-scroll-dragging {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-  }
-  .work-section .project ul {
+  } */
+  /* .work-section .project ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     font-size: 0.85em;
-  }
-  .work-section .project ul li {
+  } */
+  /* .work-section .project ul li {
     border: 1px solid #ddd;
     padding: 0.4em 0.8em;
     border-radius: 50px;
     margin-bottom: 0.5em;
     margin-right: 0.5em;
-  }
+  } */
   .work-section .project .project-img {
     position: relative;
     cursor: pointer;
@@ -738,6 +715,7 @@ html.has-scroll-dragging {
   @media (max-width: 650px) {
     .work-section .project .project-img .project-img-wrapper {
       cursor: default;
+      max-width:350px;
     }
     .work-section .project .project-img .project-img-wrapper a:first-child {
       pointer-events: none;
@@ -759,6 +737,7 @@ html.has-scroll-dragging {
   }
   .work-section .project .project-details p {
     text-align: justify;
+    color: #C0C0C0;
   }
   .work-section .project .circle-dot {
     width: 15px;
@@ -840,7 +819,8 @@ html.has-scroll-dragging {
     bottom: -6px;
   }
   .work-section .project h3 {
-    font-size: 2em;
+    font-size: 4em;
+    font-weight: 800;
     margin-bottom: 0.2em;
   }
   .work-section .project div {
@@ -859,49 +839,51 @@ html.has-scroll-dragging {
     border-radius: 10px;
   }
   .work-section .project0 .circle-dot {
-    border-color: #fc815c;
+    border-color: white;
+    border-width: 7px;
   }
   .work-section .project0 h3 {
-    color: #fc815c;
+    color: #C0C0C0;
   }
   .work-section .project0 h3 + span {
-    color: #fc815c;
+    color: #C0C0C0;
   }
   .work-section .project0 .visit-site {
-    background-color: #fc815c;
+    background-color: white;
   }
   .work-section .project0 .circle-extension {
-    background-color: #fc815c;
+    background-color: white;
   }
   .work-section .project1 {
     border-radius: 10px;
   }
   .work-section .project1 .circle-dot {
-    border-color: #639;
+    border-color: white;
+    border-width: 7px;
   }
   .work-section .project1 h3 {
-    color: #639;
+    color: #C0C0C0;
   }
   .work-section .project1 h3 + span {
-    color: #639;
+    color: #C0C0C0;
   }
   .work-section .project1 .visit-site {
-    background-color: #639;
+    background-color: white;
   }
   .work-section .project1 .circle-extension {
     -webkit-transform: translate(0%, -50%);
             transform: translate(0%, -50%);
-    background-color: #639;
+            background-color: white;
   }
   .work-section .project2 .circle-dot {
     border-color: white;
     border-width: 7px;
   }
   .work-section .project2 h3 {
-    color: #47afa1;
+    color: #C0C0C0;
   }
   .work-section .project2 h3 + span {
-    color: #47afa1;
+    color: #C0C0C0;
   }
   .work-section .project2 .visit-site {
     background-color: white;
@@ -928,9 +910,10 @@ html.has-scroll-dragging {
   }
   .work-section .vertical-line {
     width: 2px;
+    height: auto;
     position: absolute;
-    top: 0;
-    bottom: -5em;
+    top: -2em;
+    bottom: -2em;
     background: white;
     opacity: 0.5;
     left: 50%;
@@ -958,10 +941,25 @@ html.has-scroll-dragging {
   @media (max-width: 650px) {
     .work-section {
       font-size: 0.9em;
+      gap:3em;
+      margin: 20px;
     }
     .work-section h2 {
       font-size: 2em;
       margin-bottom: 1em;
+    }
+    .work-section .project h3 {
+      font-size: 2.5em;
+      font-weight: 800;
+      margin-bottom: 0.2em;
+    }
+    .work-section .project .project-details span {
+      font-size: 1.1em;
+      text-align: justify;
+    }
+    .work-section .project .project-details p {
+      text-align: justify;
+      font-size: small;
     }
   }
 

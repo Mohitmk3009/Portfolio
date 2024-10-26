@@ -31,7 +31,7 @@ const Header = () => {
                 </NavbarBrand>
 
                 {/* Desktop Menu */}
-                <NavbarContent className="hidden sm:flex gap-10 text-xl items-center">
+                <NavbarContent className="hidden sm:flex gap-5 text-xl items-center">
                     <NavbarItem>
                         <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="/">
                             Home
@@ -39,12 +39,22 @@ const Header = () => {
                     </NavbarItem>
                     <NavbarItem>
                         <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#projects">
-                            Projects
+                            Project
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#timeline">
+                            Timeline
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
                         <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#skills">
-                            Skills
+                            Skill
+                        </Link>
+                    </NavbarItem>
+                    <NavbarItem>
+                        <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#certifications">
+                            Certification
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
@@ -54,12 +64,12 @@ const Header = () => {
                     </NavbarItem>
                     <NavbarItem>
                         <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#contactme">
-                            Contact Me
+                            Contact
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
                         <Link className="px-4 py-2 text-white hover:bg-white hover:text-black transition-all duration-300 rounded-full" href="#socials">
-                            Socials
+                            Social
                         </Link>
                     </NavbarItem>
                 </NavbarContent>
@@ -84,9 +94,11 @@ const Header = () => {
                     <ul className="flex flex-col items-center gap-4 py-5">
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="#projects">Projects</Link></li>
+                        <li><Link href="#timeline">Timeline</Link></li>
                         <li><Link href="#skills">Skills</Link></li>
+                        <li><Link href="#certifications">Certification</Link></li>
                         <li><Link href="#about">About</Link></li>
-                        <li><Link href="#contact">Contact</Link></li>
+                        <li><Link href="#contactme">Contact</Link></li>
                         <li><Link href="#socials">Socials</Link></li>
                     </ul>
                 </div>
