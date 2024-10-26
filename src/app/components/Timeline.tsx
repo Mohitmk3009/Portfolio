@@ -52,9 +52,9 @@ const Timeline = () => {
 
                     </div>
                     <div className="project-img">
-                        <div className="project-img-wrapper">
+                        <div className="project-img-wrapper ">
                             <a href="https://eazygrad.com/" target="_blank" >
-                            <Image src={vertech} width={150} height={100} alt="project image" draggable="false" className='img bg-[#C0C0C0] px-20 py-3 rounded-3xl lg:mb-0 mb-[-20px]' />
+                            <Image src={vertech} width={200} height={100} alt="project image" draggable="false" className='img bg-[#C0C0C0] px-28 lg:px-24 py-7 lg:py-3 rounded-3xl lg:mb-0 mb-[-20px]' />
 
                             </a>
                             {/* <a href="https://eazygrad.com/" target="_blank">
