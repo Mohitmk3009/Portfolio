@@ -20,7 +20,7 @@ const AboutMe = () => {
                         href="/Mohit_Kumar_CV.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-white text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                        className="bg-[#C0C0C0] text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
                         View CV
                     </a>

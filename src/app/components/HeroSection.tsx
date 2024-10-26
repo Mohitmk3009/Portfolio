@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
+import ScrollIndicator from "./ScrollIndicator";
 
 const HeroSection = () => {
     useEffect(() => {
@@ -100,14 +101,14 @@ const HeroSection = () => {
                     className="flex flex-col lg:hidden items-end lg:justify-end justify-center lg:text-right text-justify  mx-3  mt-16 lg:mt-[60px] opacity-80 font-medium"
                 >
                     <div className="bounding w-fit overflow-hidden">
-                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[11px] mt-[0.5vw]">
+                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                             &quot;Crafting seamless digital experiences through
                             innovative front-end development and thoughtful UI/UX
                             design&quot;
                         </h5>
                     </div>
                     <div className="bounding w-fit overflow-hidden">
-                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[12px] mt-[0.5vw]">
+                        <h5 className="boundingelem text-white uppercase lg:text-lg text-[10px] mt-[0.5vw]">
                             - Hi, I’m Mohit Kumar.
                         </h5>
                     </div>
@@ -118,7 +119,7 @@ const HeroSection = () => {
                 >
                     <Link
                         href="#contactme"
-                        className="bg-white text-black py-2 lg:px-8 px-5 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                        className="bg-[#C0C0C0] text-black py-2 lg:px-8 px-6 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
                         Contact&nbsp;Me
                     </Link>
@@ -126,11 +127,15 @@ const HeroSection = () => {
                         href="/Mohit_Kumar_CV.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-white text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
+                        className="bg-[#C0C0C0] text-black py-2 px-9 lg:px-12 rounded-full lg:text-lg font-medium hover:bg-gray-300 transition"
                     >
                         View&nbsp;CV
                     </a>
                 </div>
+                {/* <div className="absolute bottom-8 flex justify-center w-full z-[9999]">
+                    <div className="animate-bounce w-6 h-6 rounded-full bg-gray-700"></div>
+                </div> */}
+                <ScrollIndicator/>
                 <div
                     id="chhotiheadings"
                     className="lg:flex hidden flex-col items-end lg:justify-end justify-center lg:text-right text-justify w-full mt-[30px] lg:mt-[60px] opacity-80 font-medium"

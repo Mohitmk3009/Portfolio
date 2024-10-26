@@ -26,10 +26,15 @@ const config: Config = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
       },
       animation: {
         scroll: 'scroll 40s linear infinite',
         glow: 'glow 1.5s infinite',
+        bounce: 'bounce 1.5s infinite',
       },
       textStroke: {
         DEFAULT: '1px',  // You can customize thickness here

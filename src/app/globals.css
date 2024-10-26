@@ -2,6 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/* styles/globals.css */
+
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 10px; /* Height for horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; /* Scrollbar color */
+  border-radius: 5px; /* Roundness of the scrollbar */
+  /* border: 2px solid #f0f0f0; Space around scrollbar thumb */
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #004672; /* Darker shade on hover 
+} */
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Thickness of the scrollbar */
+  scrollbar-color:#ffffff; /* thumb color track color */
+}
+
+
+/* styles/globals.css or in a module if you prefer */
+
+/* styles/globals.css or in MouseScrollIndicator.module.css */
+
+.mouse-scroll-indicator {
+  position: absolute;
+  bottom: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouse {
+  width: 40px;
+  height: 70px;
+  border: 2px solid #C0C0C0; /* Outline color */
+  border-radius: 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-dot {
+  width: 8px;
+  height: 16px;
+  background-color: #C0C0C0; /* Dot color */
+  border-radius: 45%;
+  position: absolute;
+  top: 15px;
+  animation: scrollDot 1.5s infinite ease-in-out;
+}
+
+@keyframes scrollDot {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
+
+@media (max-width: 640px) {
+  .mouse {
+   
+    border: 2px solid black; /* Outline color */
+    
+  }
+  .scroll-dot {
+  width: 8px;
+  height: 16px;
+  background-color: black; /* Dot color */
+  border-radius: 45%;
+  position: absolute;
+  top: 15px;
+  animation: scrollDot 1.5s infinite ease-in-out;
+}
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;

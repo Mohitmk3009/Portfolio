@@ -11,11 +11,13 @@ import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
 import Certificate from "./components/Certificate";
 import Timeline from "./components/Timeline";
+import ScrollProgressBar from "./components/ScrollProgressBar";
 
 
 export default function Home() {
   return (
     <>
+    <ScrollProgressBar/>
       <Cursor />
       <Header />
       <HeroSection />
