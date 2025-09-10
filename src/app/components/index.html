@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML, CSS and JavaScript demo</title>
+  <style>
+    .header {
+      text-align: center;
+      background-color: #598d68;
+      position: sticky;
+      top: 0;
+      padding: 15px;
+      border-style: dotted;
+    }
+
+    body {
+      background-color: rgb(212, 239, 224);
+      font-family: Arial, sans-serif;
+    }
+
+    label {
+      display: inline-block;
+      min-width: 150px; /* Adjust this for desired gap */
+      margin-bottom: 10px;
+    }
+
+    input, select, textarea {
+      margin-bottom: 10px;
+    }
+
+    fieldset {
+      
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid #598d68;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="header">Student Enrollment Form</h1>
+
+  <form>
+    <fieldset>
+      <label for="rollno">Roll no.:</label>
+      <input type="text" id="rollno" name="Roll no" placeholder="Enrollment number" />
+      <br>
+
+      <label for="name">Student name:</label>
+      <input type="text" id="name" name="Name" placeholder="Your name" />
+      <br>
+
+      <label for="fathername">Father's name:</label>
+      <input type="text" id="fathername" name="Father's name" />
+      <br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" />
+      <br>
+
+      <label for="mobile">Mobile no.:</label>
+      <input type="number" id="mobile" />
+      <br>
+
+      <label for="email">Email id:</label>
+      <input type="email" id="email" />
+      <br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+      <br>
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="Gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="Gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="others" name="Gender" value="others" />
+      <label for="others">Others</label>
+      <br><br>
+
+      <label for="city">City:</label>
+      <select id="city">
+        <option>Select</option>
+        <optgroup label="Delhi">
+          <option>North Delhi</option>
+          <option>East Delhi</option>
+          <option>West Delhi</option>
+          <option>South Delhi</option>
+        </optgroup>
+        <optgroup label="Uttar Pradesh">
+          <option>Ghaziabad</option>
+          <option>Lucknow</option>
+          <option>Agra</option>
+          <option>Bulandshahr</option>
+        </optgroup>
+      </select>
+      <br><br>
+
+      <label for="remarks">Remarks:</label>
+      <textarea id="remarks" name="Address" rows="4" cols="30"></textarea>
+      <br><br>
+
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+</body>
+</html>
