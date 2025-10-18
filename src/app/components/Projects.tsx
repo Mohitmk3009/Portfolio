@@ -118,7 +118,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">
-                                Designed and developed a full-stack, responsive e-commerce platform for girls' clothing. Built an optimized UI with Next.js and Tailwind CSS. Engineered the RESTful API backend with Node.js, Express.js, and MongoDB, including a robust system for automated billing and inventory updates. Developed a secure Admin Panel to manage products, orders, and customer data. UI/UX designed using Figma and Photoshop.
+                                Designed and developed a full-stack, responsive e-commerce platform for girl&apos;s clothing. Built an optimized UI with Next.js and Tailwind CSS. Engineered the RESTful API backend with Node.js, Express.js, and MongoDB, including a robust system for automated billing and inventory updates. Developed a secure Admin Panel to manage products, orders, and customer data. UI/UX designed using Figma and Photoshop.
                             </p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
                                 {raamyaIcons.map((src, index) => (
