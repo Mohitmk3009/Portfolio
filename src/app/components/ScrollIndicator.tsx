@@ -1,6 +1,6 @@
 // components/ScrollIndicator.js
 const ScrollIndicator = () => (
-    <div className="mouse-scroll-indicator lg:z-[999]  bg-transparent">
+    <div className="mouse-scroll-indicator lg:z-[999] sm:block hidden bg-transparent">
     <div className="mouse bg-transparent">
       <div className="scroll-dot"></div>
     </div>
