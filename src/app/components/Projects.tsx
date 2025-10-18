@@ -90,7 +90,7 @@ const Projects = () => {
     return (
         <div className="bg-black text-white    w-full">
             <div className="flex flex-col border-t  border-gray-600 border-b my-1">
-                
+
                 {/* ---------------------------------------------------------------- */}
                 {/* NEW PROJECT 1: Raamya E-commerce Website */}
                 {/* ---------------------------------------------------------------- */}
@@ -106,14 +106,20 @@ const Projects = () => {
                         <div className="text-section lg:px-20 px-5 lg:py-8 py-5">
                             <div className='flex justify-between'>
                                 <h1 className="text-uppercase text-[20px] lg:text-7xl opacity-70">Raamya E-commerce</h1>
-                                <div className=" icon-container flex gap-5 lg:hidden ">
-                                    {/* You can add live/github links here if available */}
+                                <div className=" icon-container flex gap-5 lg:hidden  ">
                                     <a
                                         className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                                        href="#" // Replace # with a live link
+                                        href="https://raamya.net.in/"
                                         target="_blank"
                                     >
-                                        <i className="ri-links-fill text-xl text-black font-thin bg-transparent"></i>
+                                        <i className="ri-links-fill  text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://github.com/Mohitmk3009/Raamya"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
                                     </a>
                                 </div>
                             </div>
@@ -152,7 +158,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* ---------------------------------------------------------------- */}
-                
+
                 {/* ---------------------------------------------------------------- */}
                 {/* NEW PROJECT 2: Photron Laboratories Website */}
                 {/* ---------------------------------------------------------------- */}
@@ -168,14 +174,20 @@ const Projects = () => {
                         <div className="text-section lg:px-20 px-5 lg:py-8 py-5">
                             <div className='flex justify-between'>
                                 <h1 className="text-uppercase text-[20px] lg:text-7xl opacity-70">Photron Laboratories</h1>
-                                <div className=" icon-container flex gap-5 lg:hidden ">
-                                    {/* You can add live/github links here if available */}
+                                <div className=" icon-container flex gap-5 lg:hidden  ">
                                     <a
                                         className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                                        href="#" // Replace # with a live link
+                                        href="https://www.photronlaboratories.in/"
                                         target="_blank"
                                     >
-                                        <i className="ri-links-fill text-xl text-black font-thin bg-transparent"></i>
+                                        <i className="ri-links-fill  text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://github.com/Mohitmk3009/Photron"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
                                     </a>
                                 </div>
                             </div>
@@ -214,7 +226,7 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* ---------------------------------------------------------------- */}
-                
+
                 {/* First Project */}
                 <div className="project-container flex items-center justify-between border-t border-gray-600 ">
                     <div className="relative ">
@@ -228,84 +240,84 @@ const Projects = () => {
                         <div className="text-section lg:px-20 px-5 lg:py-8 py-5">
                             <div className='flex justify-between'>
                                 <h1 className="text-uppercase text-[20px] lg:text-7xl opacity-70">Chairbord App</h1>
-                            <div className=" icon-container flex gap-5 lg:hidden  ">
-                        <a
-                            className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                            href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share"
-                            target="_blank"
-                        >
-                            <i className="ri-google-play-fill  text-xl text-black font-thin bg-transparent"></i>
-                        </a>
-                        <a
-                            className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                            href="https://github.com/Vikas62502/Chairbord"
-                            target="_blank"
-                        >
-                            <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
-                        </a>
-                    </div>
+                                <div className=" icon-container flex gap-5 lg:hidden  ">
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://play.google.com/store/apps/details?id=com.chairbord&pcampaignid=web_share"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-google-play-fill  text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://github.com/Vikas62502/Chairbord"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                </div>
                             </div>
                             <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">Designed Figma prototypes for the CBPL agent panel app with a user-centered approach, enhancing the user journey. Developed the front end using TypeScript, React Native, and Tailwind CSS, boosting engagement. Utilized Photoshop and Flaticon for design assets. Created a React Native app for 1,000+ agents in North India, streamlining FASTag generation and toll transactions.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+
                             </div>
-                           
+
                         </div>
                     </div>
                     <div className=" icon-container lg:flex gap-5 hidden  lg:px-20 px-5 lg:py-8 py-6">
@@ -409,7 +421,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div> */}
-                
+
 
                 {/* Third Project */}
                 <div className="project-container flex items-center justify-between border-t border-gray-600">
@@ -424,104 +436,104 @@ const Projects = () => {
                         <div className="text-section lg:px-20 px-5 lg:py-8 py-5">
                             <div className='flex justify-between'>
                                 <h1 className="text-uppercase text-[20px] lg:text-7xl opacity-70">Chairbord Admin</h1>
-                            <div className=" icon-container flex gap-5 lg:hidden  ">
-                        <a
-                            className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                            href="https://admin.chairbord.in/"
-                            target="_blank"
-                        >
-                            <i className="ri-links-fill  text-xl text-black font-thin bg-transparent"></i>
-                        </a>
-                        <a
-                            className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                            href="https://github.com/Vikas62502/cbpl-admin-web"
-                            target="_blank"
-                        >
-                            <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
-                        </a>
-                    </div>
+                                <div className=" icon-container flex gap-5 lg:hidden  ">
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://admin.chairbord.in/"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-links-fill  text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://github.com/Vikas62502/cbpl-admin-web"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                </div>
                             </div>
                             <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify">Designed Figma interfaces for the CBPL admin panel website with a focus on user-friendly interactions. Developed the front end using TypeScript, Next.js, and Tailwind CSS, reducing load time by 2 seconds. Utilized Photoshop for design assets and Flaticon for icons. The panel allows administrators to manage users, agents, inventory, and tags, with added analysis features for enhanced usability and functionality.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            /><Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                             <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                /><Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-plain.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+
                             </div>
-                           
+
                         </div>
                     </div>
                     <div className=" icon-container lg:flex gap-5 hidden  lg:px-20 px-5 lg:py-8 py-6">
@@ -541,7 +553,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                
+
 
 
                 {/* Fourth Project */}
@@ -557,75 +569,75 @@ const Projects = () => {
                         <div className="text-section lg:px-20 px-5 lg:py-8 py-5">
                             <div className='flex justify-between'>
                                 <h1 className="text-uppercase text-[20px] lg:text-7xl opacity-70">Read Ease</h1>
-                            <div className=" icon-container flex gap-5 lg:hidden  ">
-                        
-                        <a
-                            className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
-                            href="https://github.com/Mohitmk3009/ReadEase"
-                            target="_blank"
-                        >
-                            <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
-                        </a>
-                    </div>
+                                <div className=" icon-container flex gap-5 lg:hidden  ">
+
+                                    <a
+                                        className="bg-white w-8 h-8 flex opacity-70 justify-center items-center rounded-full"
+                                        href="https://github.com/Mohitmk3009/ReadEase"
+                                        target="_blank"
+                                    >
+                                        <i className="ri-github-fill text-xl text-black font-thin bg-transparent"></i>
+                                    </a>
+                                </div>
                             </div>
                             <p className="lg:text-sm text-xs opacity-50 lg:w-[600px] mt-2 text-justify"> Designed user-friendly interfaces in Figma for an online bookstore, emphasizing seamless book browsing and interaction. Developed a cloud-hosted platform using PHP and SQL to manage data securely and support smooth transactions. The platform enables users to buy, read, donate, and listen to audiobooks, and create blogs, offering a comprehensive and engaging experience.</p>
                             <div className='mt-4 flex gap-5 flex-wrap'>
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            /><Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            <Image
-                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-                            width={10}
-                            height={10}
-                            alt=''
-                            className='lg:w-10  lg:h-10 w-6 h-6'
-                            />
-                            
-                            
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                /><Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+                                <Image
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                                    width={10}
+                                    height={10}
+                                    alt=''
+                                    className='lg:w-10  lg:h-10 w-6 h-6'
+                                />
+
+
                             </div>
-                           
+
                         </div>
                     </div>
                     <div className=" icon-container lg:flex gap-5 hidden  lg:px-20 px-5 lg:py-8 py-6">
-                        
+
                         <a
                             className="bg-white w-16 h-16 flex opacity-70 justify-center items-center rounded-full"
                             href="https://github.com/Mohitmk3009/ReadEase"
@@ -635,7 +647,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
